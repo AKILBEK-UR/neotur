@@ -1,0 +1,70 @@
+.Mainpage{
+    height: 257.3rem;
+    background-color: white;
+}
+.gradient{
+    width: 100%;
+    height: 77.8rem;
+    border: 1px solid #000;
+    background: var(--Web-bg-gradient, linear-gradient(180deg, #D0CBFF 0%, rgba(200, 194, 255, 0) 100%));
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    padding:17.6rem 12rem 14.8rem 12rem;
+}
+.gradient__title_h1{
+    width: 66.1rem;
+    font-size: 9.6rem;
+    color: var(--Black, #141414);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11rem;
+}
+.gradient__title_h3{
+    color: var(--Black, #141414);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.1rem;
+    -webkit-text-stroke-color: #000;
+    font-style: normal;
+    font-weight: 500;
+    height: 11.4rem;
+    width: 50rem;
+    padding: 2.4rem 0 6.4rem 0;
+    line-height: 160%;
+}
+.gradient img{
+    display: flex;
+    width: 445px;
+    height: 350px;
+    margin-left: 10rem;
+}
+.gradient__title_button{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 6.4rem 0  0 3.4rem;
+    background-color: transparent;
+    border: none;
+    max-width: fit-content;
+    color: var(--light, #FFF);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.3s;
+}
+.gradient__title_button:hover{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+.gradient__title_button img{
+    margin-left: 2rem;
+    transition: filter 0.3s ease;
+    width: 4.8rem;
+    height: 2rem;
+}
