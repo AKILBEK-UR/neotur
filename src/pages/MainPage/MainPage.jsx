@@ -1,5 +1,7 @@
 import "./MainPage.css"
-import Slider from "../../components/Slider/Slider";
+import Recomended from "../../components/Recomended/Recomended";
+import Swiper from "../../components/Swiper/Swiper";
+import featured from "../../mock.json";
 export default function MainPage(){
 
 
@@ -17,6 +19,11 @@ export default function MainPage(){
             <img src="src/assets/gradient.svg" alt="hero img"/>
         </div>
 
-        <Slider/>
+        
+        <Swiper/>
+        <Recomended
+            rec = {featured}
+            displayCount={12}
+        />
     </div>);
 }

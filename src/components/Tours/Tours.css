@@ -1,19 +1,14 @@
-.recomended-container{
-    margin:2rem 12rem 2.9rem 12rem;
-}
-
-.recomends__tours{
-    margin-top: 8.2rem;
+.slider__tours{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.recomends__tours-container img{
+.slider__tours-container img{
     border-radius: 2rem;
-    width: 28.2rem;
-    height: 28.2rem;
+    width: 39rem;
+    height: 29rem;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;

@@ -1,0 +1,30 @@
+.swiper-container{
+    margin:2rem 12rem 2.9rem 12rem;
+}
+.discover{
+    margin: 0rem 2rem 3rem 0rem;
+}
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .categories button {
+    font-size: 2.4rem;
+    font-family:"Raleway", sans-serif;
+    margin-right: 6.8rem;
+    cursor: pointer;
+    border: none;background-color: white;
+  }
+  
+  .categories button.active {
+    color: #D0CBFF ;
+  }
+  
+  .category-content {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  

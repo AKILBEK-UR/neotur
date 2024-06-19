@@ -1,0 +1,146 @@
+[
+    {
+      "image": "https://cdn.pixabay.com/photo/2024/02/23/21/25/landscape-8592826_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "popular",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 11
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2024/03/04/14/56/pagoda-8612554_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "asia",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 21
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_1280.png",
+      "title": "Mount Fuji",
+      "category": "europe",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 31
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2023/05/18/09/28/monastery-8001787_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "most_visited",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 41
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2023/12/20/07/04/sunset-8459057_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "featured",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 51
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2019/05/29/20/01/sunset-4238445_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "popular",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 61
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2024/02/23/21/25/landscape-8592826_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "popular",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 17
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2024/03/04/14/56/pagoda-8612554_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "asia",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 27
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_1280.png",
+      "title": "Mount Fuji",
+      "category": "europe",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 37
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2023/05/18/09/28/monastery-8001787_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "most_visited",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 47
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2023/12/20/07/04/sunset-8459057_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "featured",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 57
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2019/05/29/20/01/sunset-4238445_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "popular",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 67
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2024/02/23/21/25/landscape-8592826_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "popular",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 16
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2024/03/04/14/56/pagoda-8612554_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "asia",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 26
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_1280.png",
+      "title": "Mount Fuji",
+      "category": "most_visited",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 36
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2023/05/18/09/28/monastery-8001787_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "europe",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 46
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2023/12/20/07/04/sunset-8459057_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "popular",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 56
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2019/05/29/20/01/sunset-4238445_1280.jpg",
+      "title": "Mount Fuji",
+      "category": "featured",
+      "location": "Honshu, Japan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.",
+      "id": 66
+    }
+  ]
