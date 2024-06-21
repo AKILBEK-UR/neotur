@@ -3,24 +3,27 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 1rem;
+    row-gap: 3rem;
 }
 
-.slider__tours-container img{
+.slider__tours-container{
     border-radius: 2rem;
     width: 39rem;
     height: 29rem;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .image-overlay{
     color: white;
     display: flex;
     align-items: center;
     position: relative;
-    bottom: 7.2rem;
-    padding: 2rem;
+    top: 22rem;
     height: 7rem;
     border-radius: 0rem 0rem 2rem 2rem;
     background: #0000004e;

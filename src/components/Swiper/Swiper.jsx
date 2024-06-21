@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Swiper.css'; 
-import Featured from "../../mock1.json";
+import Featured from "../../mock.json";
 import Tours from '../Tours/Tours';
 const categories = ['Popular', 'Featured', 'Most Visited',  'Europe', 'Asia'];
 

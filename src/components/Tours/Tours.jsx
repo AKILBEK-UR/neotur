@@ -1,23 +1,24 @@
+/* eslint-disable react/prop-types */
 import "./Tours.css";
-// eslint-disable-next-line react/prop-types
-const Tours = ({ tours, displayCount }) => {
-
-    // eslint-disable-next-line react/prop-types
-    const displayedTours = tours.slice(0, displayCount);
-
+import { Link } from "react-router-dom";
+const Tours = ({tours}) => {
     return (
-        <div className="slider">
-            <div className="slider__tours">
-                {displayedTours.map((tour) => (
-                    <div className="slider__tours-container" key={tour.id}>
-                        <img src={tour.image} alt={tour.name} />
-                        <div className="image-overlay">
-                            <h2>{tour.title}</h2>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </div>
+        <div className="slider__tours">
+      {tours && tours.length > 0
+        ? tours.map((tour) => (
+            <Link
+              key={tour.id}
+              className="slider__tours-container"
+              to={`/detail/${tour.id}`}
+              style={{ backgroundImage: `url(${tour.image})` }}
+            >
+              <div >
+                <h4 className="image-overlay">{tour.title}</h4>
+              </div>
+            </Link>
+          ))
+        : ""}
+    </div>
     );
 };
 export default Tours;

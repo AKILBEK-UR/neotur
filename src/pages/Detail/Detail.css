@@ -1,0 +1,105 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.detail-header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65.7rem;
+    flex-shrink: 0;
+}
+.goback{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-top: 13.6rem;
+    margin-left: 12rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: normal;
+    transition: 0.3s;
+    color: var(--light, #FFF);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.goback:hover{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.7rem;
+    width: 100%;
+    border-radius: 48px 48px 0px 0px;
+    background: var(--White, #FFF);
+    position: absolute;
+    top: 59rem;
+    padding: 5.6rem 12rem 0rem 12rem ;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-bottom: 2rem;
+}
+.book{
+    display: flex;
+    width: 100%;
+    background-color: rgb(41, 41, 123);
+    color: white;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.modal_title{
+    margin-top: 2rem;
+}
+.modal_input{
+    margin-top: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    row-gap: 0.5rem;
+}
+input{
+    height: 6.4rem;
+    padding-left: 2rem;
+    border-radius: 100px;
+    border: 1px solid var(--Input-gray, #636363);
+    font-size: 1.8rem;
+}
+.submit-btn{
+    background-color: rgb(88, 88, 255);
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.participants{
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    border-radius: 20px;
+background: #F3F3F3;
+}
+.participants button{
+    width: 42px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #897CFF;
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+}
