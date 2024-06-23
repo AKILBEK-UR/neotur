@@ -10,7 +10,7 @@ export default function Recomended(){
     useEffect(() => {
         const fetchTours = async () => {
           try {
-            const { data } = await api.get(`tours/recommended?page=1&size=3`);
+            const { data } = await api.get(`tours/recommended`);
             setContent(data)
           } catch (error) {
             console.error('Error fetching tours:', error);
@@ -23,7 +23,7 @@ export default function Recomended(){
             <h1 style={{marginBottom:"4rem"}}>Recomended</h1>
                 <Tours 
                 tours = {content}
-                count = {5}
+                count = {12}
                  />
         </div>
     </>);

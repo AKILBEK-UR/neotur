@@ -5,11 +5,15 @@
 }
 html{
   font-size: 10px;
-  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+   font-family: "Satoshi";
+   font-weight: 400; /* Regular */
+   src: local("Satoshi"),
+     url(../fonts/Satoshi/Satoshi-Regular.otf) format("opentype");
+ }
 *,
 *::before,
 *::after {
