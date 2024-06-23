@@ -1,9 +1,18 @@
 import "./MainPage.css"
 import Recomended from "../../components/Recomended/Recomended";
 import Swiper from "../../components/Swiper/Swiper";
+import mainlogo from "../../assets/gradient.svg"
 
 export default function MainPage(){
-
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+      
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+      });
     return (<div className="Mainpage">
     
         <div className="gradient">
@@ -15,7 +24,7 @@ export default function MainPage(){
                     <img src="src/assets/Arrow1.svg"/> 
                 </a>
             </div>
-            <img src="src/assets/gradient.svg" alt="hero img"/>
+            <img src={mainlogo} alt="hero img"/>
         </div>
 
         

@@ -2,18 +2,12 @@ import { useState, useEffect } from 'react';
 import './Swiper.css'; 
 import Tours from '../Tours/Tours';
 import { api } from '../../api';
+import left from "../../assets/leftswiper.svg";
+import right from "../../assets/rightswiper.svg"
 
 const categories = ['popular', 'featured', 'most-visited', 'europe', 'asia'];
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
 
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
-  });
-});
 
 const Swiper = () => {
   const [discovery, setDiscovery] = useState([]);
@@ -60,8 +54,8 @@ const Swiper = () => {
           ))}
         </div>
         <div>
-          <button onClick={handlePrevClick}><img src='src/assets/leftswiper.svg' alt="Previous" /></button>
-          <button onClick={handleNextClick}><img src='src/assets/rightswiper.svg' alt="Next" /></button>
+          <button onClick={handlePrevClick}><img src={left} alt="Previous" /></button>
+          <button onClick={handleNextClick}><img src={right} alt="Next" /></button>
         </div>
       </div>
 
