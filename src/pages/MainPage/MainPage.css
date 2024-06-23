@@ -1,8 +1,8 @@
 .Mainpage{
-    height: 257.3rem;
     background-color: white;
 }
 .gradient{
+    color: white;
     width: 100%;
     height: 77.8rem;
     border: 1px solid #000;
@@ -43,7 +43,7 @@
     height: 350px;
     margin-left: 10rem;
 }
-.gradient__title_button{
+.gradient__title_a{
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -52,17 +52,17 @@
     background-color: transparent;
     border: none;
     max-width: fit-content;
-    color: var(--light, #FFF);
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
     transition: 0.3s;
+    color: white;
 }
-.gradient__title_button:hover{
+.gradient__title_a:hover{
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
 }
-.gradient__title_button img{
+.gradient__title_a img{
     margin-left: 2rem;
     transition: filter 0.3s ease;
     width: 4.8rem;

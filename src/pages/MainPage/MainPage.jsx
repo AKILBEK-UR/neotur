@@ -1,9 +1,8 @@
 import "./MainPage.css"
 import Recomended from "../../components/Recomended/Recomended";
 import Swiper from "../../components/Swiper/Swiper";
-import featured from "../../mock.json";
-export default function MainPage(){
 
+export default function MainPage(){
 
     return (<div className="Mainpage">
     
@@ -11,19 +10,16 @@ export default function MainPage(){
             <div className="gradient__title">
                 <h1 className="gradient__title_h1">Winter Vacation Trips</h1>
                 <h3 className="gradient__title_h3">Enjoy your winter vacations with warmth and amazing sightseeing on the mountains. Enjoy the best experience with us!</h3>
-                <button className="gradient__title_button"> 
+                <a className="gradient__title_a" href="#togo"> 
                     Lets Go!
                     <img src="src/assets/Arrow1.svg"/> 
-                </button>
+                </a>
             </div>
             <img src="src/assets/gradient.svg" alt="hero img"/>
         </div>
 
         
-        <Swiper/>
-        <Recomended
-            rec = {featured}
-            displayCount={12}
-        />
+        <Swiper />
+        <Recomended/>
     </div>);
 }

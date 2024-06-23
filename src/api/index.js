@@ -1,3 +1,5 @@
-const api = "https://neotour-production-0f7a.up.railway.app/v3/api-docs";
+import axios from "axios";
 
-export default api;
+export const api = axios.create({
+    baseURL: "https://neotour-production-0f7a.up.railway.app/",
+})

@@ -47,12 +47,13 @@
 .book{
     display: flex;
     width: 100%;
-    background-color: rgb(41, 41, 123);
+    background-color: #6A62B7;
     color: white;
-    height: 4rem;
+    height: 6.4rem;
     align-items: center;
     justify-content: center;
     border-radius: 1.5rem;
+    border: none;
     margin-bottom: 5rem;
     cursor: pointer;
 }
@@ -74,7 +75,7 @@ input{
     font-size: 1.8rem;
 }
 .submit-btn{
-    background-color: rgb(88, 88, 255);
+    background-color: rgb(88, 88,255);
     padding: 10px 20px;
     width: 100%;
     color: white;
@@ -102,4 +103,9 @@ background: #F3F3F3;
     border: none;
     color: white;
     font-size: 2.5rem;
+}
+.location{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
 }
