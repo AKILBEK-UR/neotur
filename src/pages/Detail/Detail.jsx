@@ -8,7 +8,8 @@ import Modal from "../../components/Modal/Modal";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import { api } from "../../api";
-import Submit from "../../components/Submit/Submit";
+import close from "../../assets/close.svg";
+
 export default function Detail() {
     const { id } = useParams();
     const [tour, setTour] = useState(null);
@@ -18,14 +19,21 @@ export default function Detail() {
     const [comments, setComments] = useState("");
     const [count, setCount] = useState(1);
 
-    const handleSubmit = () => {
-        <Submit 
-            phoneNumber = {phoneNumber}
-            comments = {comments}
-            count = {count}
-            id = {tour.id}
-        />
-    }
+    const handleSubmit = async () => {
+        try {
+            const response =  await api.post(`/bookings/book`, {
+                "tourId": id,
+                "phoneNumber": phoneNumber,
+                "peopleAmount": count,
+                "comment": comments
+            });
+            console.log("Booking submitted successfully:", response.data);
+            alert(response.data);
+            setShowModal(false);
+        } catch (error) {
+            console.error('Error submitting booking:', error);
+        }
+    };
 
     const handlePhoneNumberChange = (value) => {
         if (value && value.length > 12) {
@@ -37,15 +45,15 @@ export default function Detail() {
 
     useEffect(() => {
         const fetchTour = async () => {
-          try {
-            const { data } = await api.get(`tours/${id}`);
-            setTour(data);
-          } catch (error) {
-            console.error('Error fetching tour:', error);
-          }
+            try {
+                const { data } = await api.get(`tours/${id}`);
+                setTour(data);
+            } catch (error) {
+                console.error('Error fetching tour:', error);
+            }
         };
         fetchTour();
-      }, [id]);
+    }, [id]);
 
     const handleBookClick = () => {
         setShowModal(true);
@@ -79,7 +87,7 @@ export default function Detail() {
                 <div className="detail-container">
                     <h1>{tour.title}</h1>
                     <p className="location" >
-                        <img src={location} alt="Location" /> {tour.name }, {tour.country}
+                        <img src={location} alt="Location" /> {tour.name}, {tour.country}
                     </p>
                     <h3>Description</h3>
                     <p style={{ marginBottom: "2rem" }}>
@@ -98,8 +106,11 @@ export default function Detail() {
                 </div>
             </div>
 
-            <Modal show={showModal} onClose={handleCloseModal}>
-                <h1>Info</h1>
+            <Modal show={showModal}>
+                <div className="modal__header">
+                    <h1>Info</h1>
+                    <img className="close_image" src={close} onClick={handleCloseModal} />
+                </div>
                 <p className="modal_title">
                     To submit an application for a tour reservation, you need to fill in your information and select the number of people for the reservation
                 </p>
@@ -135,7 +146,7 @@ export default function Detail() {
                     </div>
                 </label>
                 <button type="submit" className="submit-btn" onClick={handleSubmit} >
-                    Submit
+                    <h3>Submit</h3>
                 </button>
             </Modal>
         </>

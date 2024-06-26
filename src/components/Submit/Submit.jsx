@@ -1,13 +1,13 @@
 import axios from "axios";
 import { useEffect } from "react";
-export default function Submit({phoneNumber, comments,count,id}){
+export default function Submit({phoneNumber, comments,numberOfPerson,id}){
   useEffect(() => {
     const fetchTours = async () => {
       try {
         const response = await axios.post("https://neotour-production-0f7a.up.railway.app/bookings/book", {
           phoneNumber,
           comments,
-          count,
+          numberOfPerson,
           tourId: id
         });
         console.log("Booking submitted successfully:", response.data);
@@ -17,5 +17,5 @@ export default function Submit({phoneNumber, comments,count,id}){
     };
 
     fetchTours();
-  }, [phoneNumber, comments, count, id]);
+  }, [phoneNumber, comments, numberOfPerson, id]);
 }
